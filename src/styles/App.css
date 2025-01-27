@@ -1,12 +1,51 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* styles/App.css */
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.App {
+  text-align: center;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.categories button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  background-color: #ccc;
+}
+
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dish {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  text-align: left;
+}
+
+.dish img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.dish h3 {
+  margin: 10px 0;
+}
+
+.dish .price {
+  color: #ff6347;
+  font-weight: bold;
 }
